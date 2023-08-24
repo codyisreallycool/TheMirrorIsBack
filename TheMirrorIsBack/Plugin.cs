@@ -36,12 +36,12 @@ namespace TheMirrorIsBack
             mirror = FindGameObjectWithNameContains(parentTransform, "mirror");
             if (mirror != null)
             {
-                Logger.LogInfo("Found mirror GameObject! :D");
+                Logger.LogInfo("Hello! I have found the mirror and I am enabling it now! :D");
                 mirror.SetActive(true);
             }
             else
             {
-                Logger.LogWarning("Mirror GameObject not found D:");
+                Logger.LogWarning("Could not start, mirror object not found!");
             }
         }
 
@@ -69,7 +69,7 @@ namespace TheMirrorIsBack
             }
             else
             {
-                Logger.LogWarning("Mirror GameObject not found D:");
+                Logger.LogWarning("Could not activate mirror, object not found!");
             }
         }
 
@@ -78,6 +78,10 @@ namespace TheMirrorIsBack
             if (mirror != null)
             {
                 mirror.SetActive(false);
+            }
+            else
+            {
+                Logger.LogWarning("Could not deactivate mirror, object not found!");
             }
         }
 
