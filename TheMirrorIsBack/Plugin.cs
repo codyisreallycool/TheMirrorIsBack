@@ -1,12 +1,10 @@
 ﻿using BepInEx;
 using System;
 using UnityEngine;
-using Utilla;
 
 namespace TheMirrorIsBack
 {
     [ModdedGamemode]
-    [BepInDependency("org.legoandmars.gorillatag.utilla", "1.5.0")]
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
     public class Plugin : BaseUnityPlugin
     {
@@ -43,22 +41,6 @@ namespace TheMirrorIsBack
             {
                 Logger.LogWarning("Could not start, mirror object not found!");
             }
-        }
-
-        void Update()
-        {
-        }
-
-        [ModdedGamemodeJoin]
-        public void OnJoin(string gamemode)
-        {
-            inRoom = true;
-        }
-
-        [ModdedGamemodeLeave]
-        public void OnLeave(string gamemode)
-        {
-            inRoom = false;
         }
 
         void FindAndActivateMirror()
