@@ -6,4 +6,4 @@ This is my first mod I have EVER made so don't expect much lol.
 
 ![example image](https://github.com/codey-games/TheMirrorIsBack/blob/master/2.jpeg?raw=true)
 
-I'm not actually too sure what it's dependencies are tbh, I'd say use CI but it could work without it.
+I'm not actually too sure what it's dependencies are tbh, I'd say use Utilla and CI but it could work without it.
