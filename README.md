@@ -1,3 +1,4 @@
+## ⚠️ UPDATE COMING SOON, WITH NEW FEATURES! ⚠️
 # TheMirrorIsBack
 no, that is not the gorillacosmetics mirror, that one is broken rn
 
